@@ -1,0 +1,79 @@
+
+.Main 
+{
+  display:flex;
+  justify-content: space-around;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+.left, .right
+{
+    border: 1px solid black;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: #e8f8f2;
+}
+
+.right
+{
+  width: 50%;  
+  
+  
+}
+.left 
+{
+    width:30%;
+    
+    
+}
+
+.Hala-info
+{
+border: 1px solid black;
+margin: 30px;
+}
+.explanation
+{
+    text-indent: 20px;
+    font-size: 10px;
+    margin: auto;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+.img-on-left
+{
+    width: 150px;
+    height: 150px;
+      
+}
+.img-contries
+{
+    width: 50px;
+    height: 50px;
+      
+}
+.imgs
+{
+      margin: auto;
+      text-align: center;
+
+}
+
+.Head
+{
+text-align: center;
+font-weight: 300;
+}
+h4
+{
+    margin: 10px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+p
+{
+    width:100%;
+}

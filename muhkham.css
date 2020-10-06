@@ -1,19 +1,84 @@
 body{
-    background-image: url(https://image.shutterstock.com/z/stock-photo-bangkok
-    -thailand-june-political-map-of-south-america-continent-1104283148.jpg);
+    background-image: url(https://statictechcamp.america.gov/uploads/2018/04/Screen-Shot-2018-04-16-at-5.22.14-PM.png);
+    background-blend-mode: lighten;
 }
-
-
 
 h1{
+    background-color: salmon;
     text-align: center;
     color: red;
+    font-size: 40px;
 }
-.muhkham {
+
+h2 {
+    background-color: skyblue;
+    text-align: center;
+    color: rebeccapurple;
+    font:size: 30px;
+}
+
+.muhkham{
+    display:flex;
+    justify-content: center;
     width:256px;
     height:256px;
 }
-.dicription{
-    color:green;
+
+   
+.info{
+    display:flex;
+    justify-content: center;
+    color: rgb(226, 43, 134);
+    width: 600px;
+    border: 10px solid rgb(76, 76, 253);
+    padding: 10px;
+    margin: 20px;
+    font-size 
 
 }
+
+.list{
+    width: 300px;
+    border: 10px solid blue;
+    padding: 30px;
+    margin: 20px;
+    list-style-type:square;
+}
+
+.table{display:flex;
+    justify-content: center ;
+
+}
+li{
+    font-size:25px;
+}
+
+.countries{ 
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.pic-flag{
+    width:60px;
+    height:40px;
+    border-color:black;
+  
+}
+.images{ display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+  
+}
+
+.pic{
+    width:200px;
+    height:200px;
+    border-color:black;
+   
+}
+
+
+
+.further{
+    color:white;
