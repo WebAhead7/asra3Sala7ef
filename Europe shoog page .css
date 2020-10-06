@@ -1,10 +1,25 @@
+body {
+   margin-right: 80px;
+  
+
+}
+
 .Romania{
    color:green;
+   border-style: none;
+}
+p.Nestled{
+   border-style:hidden;;
 }
 
 
 
-.Volunteer strong{
-   text-align:left;
+p.Volunteer{
    color:brown;
+   border-style: ridge;
+   
+ 
+}
+.Rome{
+   color:green;
 }
