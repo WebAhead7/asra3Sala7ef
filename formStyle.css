@@ -4,13 +4,20 @@
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  width: 200px;
+  width: 300px;
   padding: 5px;
   border-radius: 15px;
+  text-align: center;
 }
 
-.form button {
+span {
   margin: 5px;
+}
+
+input,
+select {
+  border-radius: 4px;
+  width: 100%;
 }
 
 input[type="submit"] {
@@ -21,7 +28,7 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
-  margin: 5px;
+  margin: 10px;
 }
 
 input[type="submit"]:hover {
