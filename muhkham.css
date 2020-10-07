@@ -1,28 +1,26 @@
 body{
-    background-image: url(https://statictechcamp.america.gov/uploads/2018/04/Screen-Shot-2018-04-16-at-5.22.14-PM.png);
-    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-h1{
-    background-color: salmon;
-    text-align: center;
-    color: red;
-    font-size: 40px;
+
+.main-head{
+    width:100%;
 }
 
+.main-head-img{
+    width: 100%;
+    height: 200px;
+}
 .h2 {
+    display: flex;
+    justify-content: center;
     background-color: skyblue;
     text-align: center;
     color: rebeccapurple;
-    font:size: 30px;
+    font-size: 30px;
     padding: 10;
-}
-
-.muhkham{
-    display:flex;
-    justify-content: center;
-    width:256px;
-    height:256px;
+    width: 600px;
 }
 
    
@@ -35,7 +33,22 @@ h1{
     padding: 10px;
     margin: 20px;
     font-size : 25px;
+}
+.muhkham{
+    width:256px;
+    height:256px;
+}
 
+.right{
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.left{
+    display:flex;
+    justify-content: flex-start;
+    padding: 10px;
 }
 
 .list{
@@ -47,7 +60,7 @@ h1{
 }
 
 .table{display:flex;
-    justify-content: center ;
+    justify-content: flex-start ;
 
 }
 li{
@@ -66,7 +79,8 @@ li{
     border-color:black;
   
 }
-.images{ display:flex;
+.images{ 
+    display:flex;
     justify-content: space-between;
     justify-content: space-around;
   
@@ -82,4 +96,4 @@ li{
 
 
 .further{
-    color:white;
+    color:rgb(8, 8, 8);
