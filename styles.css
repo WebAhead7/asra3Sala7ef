@@ -10,7 +10,9 @@
   text-align: center;
   margin-bottom: 100px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 #div {
   width: 100px;
   height: 50px;
@@ -24,23 +26,24 @@
 
 /*muhammad section-below*/
 
-.members h5{margin:0;
-  padding:0;
+.members h5 {
+  margin: 0;
+  padding: 0;
   margin-bottom: 15px;
- 
 }
-.members-title{ display: flex;
+.members-title {
+  display: flex;
   justify-content: center;
-  color:orangered;
+  color: orangered;
   font-size: 45px;
 }
 
-.members-pic{ display:flex;
+.members-pic {
+  display: flex;
   justify-content: center;
-  width:700px;;
+  width: 700px;
   height: 140px;
 }
-
 
 /*muhammad section-above*/
 
@@ -53,30 +56,39 @@
   }
 }
 
-
-
-.hear-Nizar:hover,
+.head-Nizar:hover,
 .head-Nizar:focus {
   color: #03518a;
   cursor: pointer;
+  background-color: bisque;
 }
 
-.hear-Nizar-link {
+.head-Nizar-link {
   text-decoration: none;
   color: inherit;
 }
 
-.hear-Nizar {
+.head-Nizar {
   border-style: solid;
-  padding-left: 30px;
-  padding-right: 30px;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+#lastElem {
+  border-right: solid;
 }
 .head {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  width: 70%;
+  justify-content: space-between;
+  width: 73.3%;
+  height: 35px;
   background-color: chocolate;
+  padding-inline-start: 0%;
+  margin-block-start: -8px;
 }
 
 body {
@@ -112,30 +124,26 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
-ul.name{
+ul.name {
   width: 80%;
   align-items: center;
   border-style: solid;
 }
 
-.main-intro
-{
-  font-family:"Arial";
-  width:100%;
-
+.main-intro {
+  font-family: "Arial";
+  width: 100%;
 }
 
 .text-intro {
   border-style: solid;
-  width:40%;
+  width: 40%;
   background-color: #d4a268;
   box-shadow: 5px 10px #c79761;
   border-radius: 15px;
   padding: 2%;
-  margin:auto;
+  margin: auto;
 }
-.img-intro
-{
+.img-intro {
   width: 50%;
-  
 }

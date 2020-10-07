@@ -27,33 +27,20 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-}
-   
-.info{
-    display:flex;
-    justify-content: center;
-    color: rgb(226, 43, 134);
-    width: 600px;
-    border: 10px solid rgb(76, 76, 253);
-    padding: 10px;
-    margin: 20px;
-    font-size : 25px;
-}
-.muhkham{
-    width:256px;
-    height:256px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .right{
-    display:flex;
-    justify-content: flex-end;
+    color:black;
+    font-size: 40px;
     padding: 10px;
 }
 
 .left{
-    display:flex;
-    justify-content: flex-start;
     padding: 10px;
+    width:256px;
+    height:256px;
 }
 
 .list{
@@ -84,7 +71,7 @@ li{
     border-color:black;
   
 }
-.images{ 
+.images1{ 
     display:flex;
     justify-content: space-between;
     justify-content: space-around;
