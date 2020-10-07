@@ -127,6 +127,7 @@ input[type="submit"]:hover {
 ul.name {
   width: 80%;
   align-items: center;
+  border-style: solid;
 }
 
 .main-intro {
