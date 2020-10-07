@@ -8,7 +8,7 @@
   padding: 5px;
   border-radius: 15px;
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 #div {
@@ -19,22 +19,23 @@
   position: relative;
   animation: mymove 5s infinite;
   animation-timing-function: ease;
+  animation-delay: 2s;
 }
 
 @keyframes mymove {
   from {
-    left: 0px;
+    left: -428px;
   }
   to {
-    left: 300px;
+    left: 428px;
   }
 }
 
 p {
   border-style: solid;
-  /* padding-bottom: 200px; */
+  padding: 12px;
   margin-bottom: 300px;
-  width: 72%;
+  width: 71.1%;
   display: flex;
   justify-content: center;
   background-color: #d4a268;
