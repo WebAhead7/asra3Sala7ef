@@ -21,6 +21,28 @@
   animation-timing-function: ease;
 }
 
+/*muhammad section-below*/
+
+.members h5{margin:0;
+  padding:0;
+  margin-bottom: 15px;
+ 
+}
+.members-title{ display: flex;
+  justify-content: center;
+  color:orangered;
+  font-size: 45px;
+}
+
+.members-pic{ display:flex;
+  justify-content: center;
+  width:700px;;
+  height: 140px;
+}
+
+
+/*muhammad section-above*/
+
 @keyframes mymove {
   from {
     left: 0px;
