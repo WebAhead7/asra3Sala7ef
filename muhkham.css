@@ -17,12 +17,17 @@ body{
     justify-content: center;
     background-color: skyblue;
     text-align: center;
-    color: rebeccapurple;
-    font-size: 30px;
+    color:brown;
+    font-size: 40px;
     padding: 10;
-    width: 600px;
+    width: 100%;
 }
-
+.main-info{
+    background-image: url('https://cdnuploads.aa.com.tr/uploads/Contents/2019/12/27/thumbs_b_c_9b5f376417fc7fae866215ee49de2da7.jpg?v=230607');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
    
 .info{
     display:flex;
