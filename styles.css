@@ -143,6 +143,8 @@ ul.name {
   padding: 2%;
   margin: auto;
 }
-.img-intro {
-  width: 50%;
+.img-intro
+ {
+  width: 90%;
+  margin:center;
 }
