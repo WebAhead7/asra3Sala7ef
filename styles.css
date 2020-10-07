@@ -13,18 +13,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/*muhammad section-below*/
 #div {
-  width: 100px;
-  height: 50px;
-  background-color: greenyellow;
   font-weight: bold;
   position: relative;
   animation: mymove 5s infinite;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
   animation-delay: 2s;
 }
-
-/*muhammad section-below*/
+.div-image{width: 130px;
+  height: 100px;
+}
 
 .members h5 {
   margin: 0;

@@ -87,5 +87,7 @@ li{
 
 
 
-.further{
+.further{display:flex;
+        justify-content:center;
     color:rgb(8, 8, 8);
+}
