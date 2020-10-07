@@ -125,9 +125,16 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 ul.name {
-  width: 80%;
-  align-items: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 73.3%;
+  height: 35px;
+  background-color: chocolate;
+  padding-inline-start: 0%;
+  margin-block-start: -8px;
   border-style: solid;
+  border-right: solid;
 }
 
 .main-intro {
@@ -147,3 +154,12 @@ ul.name {
 .img-intro {
   width: 50%;
 }
+.head-shoog{
+  border-style: solid;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%; 
+}
+
