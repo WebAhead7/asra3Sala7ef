@@ -98,3 +98,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+ul.name{
+  width: 80%;
+  align-items: center;
+ 
+}
