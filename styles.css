@@ -22,6 +22,28 @@
   animation-delay: 2s;
 }
 
+/*muhammad section-below*/
+
+.members h5{margin:0;
+  padding:0;
+  margin-bottom: 15px;
+ 
+}
+.members-title{ display: flex;
+  justify-content: center;
+  color:orangered;
+  font-size: 45px;
+}
+
+.members-pic{ display:flex;
+  justify-content: center;
+  width:700px;;
+  height: 140px;
+}
+
+
+/*muhammad section-above*/
+
 @keyframes mymove {
   from {
     left: -428px;
@@ -31,33 +53,25 @@
   }
 }
 
-p {
-  border-style: solid;
-  padding: 12px;
-  margin-bottom: 300px;
-  width: 71.1%;
-  display: flex;
-  justify-content: center;
-  background-color: #d4a268;
-}
 
-ul li:hover,
-ul li:focus {
+
+.hear-Nizar:hover,
+.head-Nizar:focus {
   color: #03518a;
   cursor: pointer;
 }
 
-ul li a {
+.hear-Nizar-link {
   text-decoration: none;
   color: inherit;
 }
 
-ul li {
+.hear-Nizar {
   border-style: solid;
   padding-left: 30px;
   padding-right: 30px;
 }
-ul {
+.head {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -101,5 +115,26 @@ input[type="submit"]:hover {
 ul.name{
   width: 80%;
   align-items: center;
- 
+}
+
+.main-intro
+{
+  font-family:"Arial";
+  width:100%;
+
+}
+
+.text-intro {
+  border-style: solid;
+  width:40%;
+  background-color: #d4a268;
+  box-shadow: 5px 10px #c79761;
+  border-radius: 15px;
+  padding: 2%;
+  margin:auto;
+}
+.img-intro
+{
+  width: 50%;
+  
 }
