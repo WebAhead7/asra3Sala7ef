@@ -123,7 +123,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #347737;
 }
 ul.name {
   list-style-type: none;
@@ -145,12 +145,13 @@ ul.name {
 
 .text-intro {
   border-style: solid;
-  width: 40%;
+  width: 50%;
   background-color: #d4a268;
   box-shadow: 5px 10px #c79761;
   border-radius: 15px;
   padding: 2%;
   margin: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .img-intro
  {
@@ -169,3 +170,20 @@ ul.name {
 {
     width:100%;text-align:left;margin-left:0;
 } 
+.form
+
+{
+  width: 95%;
+ opacity: 0.5;
+
+margin: auto;
+
+}
+h3
+{
+  text-align: center;
+  color: rgb(165, 49, 4);
+  font-size: 24px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  
+}
