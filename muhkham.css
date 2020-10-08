@@ -28,16 +28,19 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .right{
+    text-align: justify;
+    text-justify: auto;
     color:black;
     font-size: 40px;
     padding: 10px;
 }
 
-.left{
+.left{ 
     padding: 10px;
     width:256px;
     height:256px;
@@ -90,4 +93,17 @@ li{
 .further{display:flex;
         justify-content:center;
     color:rgb(8, 8, 8);
+}
+
+.about-us{
+    font-size:20px;
+}
+.list-title{
+    color: red;
+    font-size: 40px;
+}
+
+.about-us-2{
+    text-align: justify;
+    text-justify: auto;
 }
