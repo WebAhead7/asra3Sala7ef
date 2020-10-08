@@ -169,3 +169,8 @@ ul.name {
 {
     width:100%;text-align:left;margin-left:0;
 } 
+.images{
+  display:flex;
+  justify-content: space-around;
+  width:80%;
+}
