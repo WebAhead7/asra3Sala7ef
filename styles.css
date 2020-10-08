@@ -165,4 +165,7 @@ ul.name {
   align-items: center;
   width: 25%; 
 }
-
+.bottomline
+{
+    width:100%;text-align:left;margin-left:0;
+} 
